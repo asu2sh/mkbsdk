@@ -1,7 +1,7 @@
 # mkbsdk
 Python Script to download wallpapers from MKBHD Panels app
 ## How to use?
-- Install python
+- Install Python 🐍
 - Run in the terminal
   ```bash
   python main.py
