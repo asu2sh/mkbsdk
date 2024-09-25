@@ -57,13 +57,13 @@ def main():
                 file_index += 1
                 time.sleep(0.25)
 
-        print("\nDownload complete!")
+        print("\n✅ Download complete!")
         
     except KeyboardInterrupt:
-        print(f"\nDownload cancelled!")
+        print(f"\n✖️ Download cancelled!")
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"\n❌ Error: {e}")
 
 if __name__ == "__main__":
     print("🤑 Starting downloads from the image API...")
